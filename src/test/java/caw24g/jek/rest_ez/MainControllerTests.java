@@ -30,6 +30,12 @@ public class MainControllerTests {
                 .andExpect(content().string("Goodbye, World!"));
     }
 
+    @Test
+    public void testFailure() throws Exception {
+        mockMvc.perform(get("/nonexistent"))
+                .andExpect(status().isOk());
+    }
+
 
 
 }
