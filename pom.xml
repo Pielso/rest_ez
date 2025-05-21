@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>caw24g.jek</groupId>
 	<artifactId>rest_ez</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<name>rest_ez</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
